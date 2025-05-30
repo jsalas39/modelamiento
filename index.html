@@ -1,3 +1,4 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -5,11 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Simulador de Préstamos con Interés Variable</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
   <header>
     <h1>Simulador de Préstamos</h1>
-    <p>Interés Variable | Métodos Numéricos</p>
+    <p>Interés Variable | Cálculo Numérico</p>
   </header>
 
   <main>
@@ -29,13 +31,13 @@
       </form>
     </section>
 
-    <section class="resultado" id="resultado">
-      <!-- Resultados aparecerán aquí -->
-    </section>
+    <section class="resultado" id="resultado"></section>
+
+    <canvas id="grafico" width="800" height="400"></canvas>
   </main>
 
   <footer>
-    <p>Desarrollado por estudiantes de Ingeniería de Sistemas – Universidad de la Costa</p>
+    <p>Desarrollado como recurso educativo - Universidad de la Costa</p>
   </footer>
 
   <script src="script.js"></script>
